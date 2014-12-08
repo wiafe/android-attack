@@ -1,16 +1,13 @@
-<strong>Hello guys!</strong> Welcome to what will be my development blog. It has been something many of my mentors have told me to consider, and since this will be my first attempt to develop an Android app (without knowing much Java) I might as well start here! Listeners of CA! Radio, have been noticing my slow transition into the software/web development world. For those that don’t follow the show, here is a brief history on how it started:
+Hello guys! Welcome to what will be my development blog. It has been something many of my mentors have told me to consider, and since this will be my first attempt to develop an Android app (without knowing much Java) I might as well start here! Listeners of CA! Radio, have been noticing my slow transition into the software/web development world. For those that don’t follow the show, here is a brief history on how it started:
 
-<strong>
 I WANT A CAREER!
-</strong>
 
 I guess I should explain myself in a bit more detail. I have always had a dying interest to code, but was too scared by the foreign-ness and complexity of learning a programming language .
 
 
 This is a basic C program:
 
-<code>
-#include &lt;stdio.h&gt;
+#include <stdio.h>
 
 int main()
 {
@@ -18,7 +15,6 @@ printf(“Hello World! “);
 getch();
 return 0;
 }
-</code>
 
 Ask me what any of that meant five months ago, I would have simply thrown in the towel of defeat and walked away from it all. Gladly I didn't.
 
@@ -35,7 +31,6 @@ After rigorous learning and studying came the time to apply. I hadn't built any 
 Since then, HTML, CSS, and JavaScript have been the point of emphasis. So far it is has been really enjoyable, it’s what clicked the fastest and has been the most refreshing. Pretty brief huh?
 
 
-Then the question comes; Why are you making an android app? The answer is pretty simple; I still enjoy the software side, and I like creating. Plus Google’s new design language, <a href="http://www.google.com/design/spec/material-design/introduction.html">Material Design</a> is absolutely beautiful. Which complements the app I want to make.
+Then the question comes; Why are you making an android app? The answer is pretty simple; I still enjoy the software side, and I like creating. Plus Google’s new design language, Material Design is absolutely beautiful. Which complements the app I want to make.
 
-<strong>
-With that, I hope you join in on this journey and enjoy the ride with me. It will be super bumpy, but in the end it will be smooth sailing. High five someone!</strong>
+With that, I hope you join in on this journey and enjoy the ride with me. It will be super bumpy, but in the end it will be smooth sailing. High five someone!
