@@ -3,6 +3,6 @@ $(document).ready(function(){
     
     $("#button", this).click(function(){
         $("#readon").toggle();
-        
+        $("#button").remove();
     });
 });
