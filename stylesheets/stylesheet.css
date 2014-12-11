@@ -183,6 +183,7 @@ sub {
 
 img {
   border: 0;
+  vertical-align: middle;
 }
 
 /**
@@ -265,6 +266,10 @@ textarea {
 
 button {
   overflow: visible;
+}
+
+button:hover {
+    color: #2268b2;
 }
 
 /**
@@ -451,6 +456,10 @@ a.main-title {
     color:#fff;
 }
 
+header .inner {
+    color:#fff;
+}
+
 header {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -463,7 +472,7 @@ header h1 {
   letter-spacing: -1px;
   font-size: 72px;
   font-weight: normal;
-  color: #fff;
+  /*color: #fff;*/
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0.2em;
