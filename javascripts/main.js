@@ -1,1 +1,8 @@
-console.log('This would be the main JS file.');
+$(document).ready(function(){
+    $("#readon").hide();
+    
+    $("#button", this).click(function(){
+        $("#readon").toggle();
+        
+    });
+});
