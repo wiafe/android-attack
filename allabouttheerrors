@@ -1,0 +1,51 @@
+<img class="alignleft" src="http://i623.photobucket.com/albums/tt319/XBD47/RandyAvatar_zps12594c4c.jpg" alt="" width="131" height="131" />
+
+<strong>So in the first week of android development, I was riddled with errors.</strong> Not even stemming from coding, but in the setup process. Which at times can damper your progression, especially when you’re excited to go and make an app!
+
+The first error I hit was Eclipse not being able to read my SDK. Which was easy to fix, just had to redirect where the SDK was downloading everything. Then BOOM! I was ready to go again. Now you must know I’m going off of Lynda’s Android Essential Training (Yay to free month!). Then from there I’ll, resort to googling and other tutorials on the net.
+
+<img class="alignright" src="http://visualstudiomagazine.com/blogs/tool-tracker/2013/09/~/media/ECG/visualstudiomagazine/Images/introimages/ErrorMessage.ashx" alt="" width="226" height="202" />
+
+The next error that bummed me out was not being able to set up an virtual device environment. Which hasn’t been fixed with Android Studio finally being released, so I’m just using my Nexus 4 and 5 as the environment. Which in all honesty is fine since I can touch and feel how the app works. What makes me sad is that I want to be able to test from my chromebook (using chrome remote desktop)! Soon enough I’ll be buying a laptop dedicated to coding, but as for right now it’s just a pain in the butt…
+
+And then there is the Gradle error I just got after installing Android Studio… I have NO idea what it’s suppose to even do… Searching on stackoverflow.com, I get the consensus of it being a build tool… cool? I still don’t know what it does, and why I get this error: <b>Gradle dsl method not found</b>. So i resorted to installing Android Studio again (I was using the beta, then upgraded). Looked around for what it may be hopefully I can get a fix for this damn thing!
+
+Now to the GOOD AWESOME THING, I know how to move between activities! It’s the little things I tell ya!
+
+Here is the code I need to run in my main activity java file:
+
+<pre>
+public void gotoActivity(View v) {
+    Intent intent = new Intent (this, DetailActivity.class);
+    startActivity(intent);
+}
+</pre>
+
+This is what you call; Explicit Intent. Which is an messaging object you can use to request an action from another app component (straight from develop.android!).
+
+Now in my activity main xml, I must insert:
+
+<code>android:onClick=”gotoActivity”</code>
+
+From there you run your app and press the button you prompted on your main activity to another activity(es).
+
+Very easy process but of course this blog wouldn’t be complete without an error! After watching the tutorial I went gung ho, and had a daring TWO buttons on my main screen! One was labelled “Join!” the other “Click Me”.
+
+Here is the code I had running in the main java:
+
+(Join button) <pre>
+public void gotoActivity(View v) {
+   Intent intent = new Intent (this, DetailActivity.class);
+   startActivity(intent);
+}
+</pre>
+(Submit button) <pre>
+public void gotoSubmit(View s) {
+   Intent intent = new Intent (this, SubmitActivity.class);
+   startActivity(intent);
+}
+</pre>
+
+Then I ran the app on my Nexus 5 and everytime I hit the “Join” button, it crashed the app and kicked me out. Which led me to be fixated on the above code and the ones in the activities, in turn has led me no where... Hopefully I find out what I did wrong… To Be Continued!
+
+<strong>Hug someone! -Randy</strong>
